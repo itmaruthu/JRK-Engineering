@@ -1,0 +1,86 @@
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: var(--section-padding);
+  position: relative;
+  background: linear-gradient(rgba(26, 26, 46, 0.7), rgba(26, 26, 46, 0.7)),
+              url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero-content {
+  max-width: 900px;
+  color: var(--white);
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: var(--white);
+  animation-delay: 0.1s;
+}
+
+.hero-tagline {
+  font-size: 32px;
+  font-weight: 300;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  animation-delay: 0.2s;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+  animation-delay: 0.3s;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  animation-delay: 0.4s;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 70vh;
+    background-attachment: scroll;
+  }
+
+  .hero-title {
+    font-size: 42px;
+  }
+
+  .hero-tagline {
+    font-size: 24px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-tagline {
+    font-size: 20px;
+  }
+}

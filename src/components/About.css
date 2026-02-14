@@ -1,0 +1,114 @@
+.about {
+  background: var(--light-gray);
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.about-text {
+  padding-right: 20px;
+}
+
+.about-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--medium-gray);
+  margin-bottom: 20px;
+}
+
+.about-mission {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--medium-gray);
+  padding: 25px;
+  background: var(--white);
+  border-left: 4px solid var(--primary-color);
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.values-section {
+  margin-top: 40px;
+}
+
+.values-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.value-card {
+  background: var(--white);
+  padding: 25px;
+  border-radius: 8px;
+  transition: var(--transition);
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.value-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--medium-gray);
+}
+
+.about-image {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-text {
+    padding-right: 0;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .values-title {
+    font-size: 24px;
+  }
+
+  .value-card {
+    padding: 20px;
+  }
+}

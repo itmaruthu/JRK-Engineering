@@ -1,0 +1,12 @@
+.App {
+  min-height: 100vh;
+}
+
+main {
+  margin-top: 80px;
+}
+
+/* Smooth scroll behavior */
+section {
+  scroll-margin-top: 80px;
+}
