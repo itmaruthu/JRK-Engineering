@@ -28,7 +28,7 @@ export const config = {
 
   // SOCIAL MEDIA LINKS
   social: {
-    linkedin: "https://linkedin.com/company/jrk-engineering",
+    linkedin: "https://www.linkedin.com/company/jrk-engineering-company/",
     facebook: "https://facebook.com/jrkengineering",
     twitter: "https://twitter.com/jrkengineering",
     instagram: "https://instagram.com/jrkengineering",

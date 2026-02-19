@@ -10,6 +10,12 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import Slideshow from './components/Slideshow'
+const modules = import.meta.glob('../assests/*.{jpg,jpeg,png,gif,webp}', { eager: true });
+console.log(modules);
+const images  = Object.values(modules).map((m) => m.default);
+
+
 import './App.css';
 
 function App() {
@@ -46,7 +52,8 @@ function App() {
         <Hero />
         <Intro />
         <Services />
-        <Gallery />
+        {/* <Gallery /> */}
+        <Slideshow  />
         <WhyChooseUs />
         <About />
         {/* <Testimonials /> */}
