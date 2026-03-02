@@ -166,7 +166,7 @@ const Contact = () => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="+1 (555) 123-4567"
+                placeholder="+91 98765 43210"
               />
             </div>
 
@@ -209,7 +209,8 @@ const Contact = () => {
             <button 
               type="submit" 
               className="btn btn-primary submit-btn"
-              disabled={status.submitting}
+              //disabled={status.submitting}
+              disabled={true}
             >
               {status.submitting ? 'Sending...' : 'Send Message'}
             </button>

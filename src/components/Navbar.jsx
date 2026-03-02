@@ -47,7 +47,9 @@ const Navbar = ({ activeSection }) => {
           onClick={() => scrollToSection('home')}
           aria-label="Home"
         >
-          <div className="logo-icon">{config.company.logo}</div>
+          <div className="logo-icon">
+            <img src={config.company.logo} alt={config.company.name} />
+          </div>
           <span className="logo-text">{config.company.name}</span>
         </button>
 

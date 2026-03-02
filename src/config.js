@@ -3,17 +3,17 @@
 // ============================================
 // This file contains all customizable settings for your website
 // Update values here instead of editing multiple component files
-
+import logo from './assests/logo.svg'; // Example of importing an asset
 export const config = {
   // COMPANY INFORMATION
   company: {
     name: "JRK Engineering",
     tagline: "Engineering Reliability. Delivered with Precision.",
-    logo: "JRK", // You can replace this with an image path
+    logo: logo, // You can replace this with an image path
     description: "Leading construction and engineering company delivering excellence in every project.",
-    email: "info@jrkengineering.com",
-    phone: "+1 (555) 123-4567",
-    address: "123 Engineering Blvd, Tech City, TC 12345",
+    email: "jrk.engg@gmail.com",
+    phone: "+91 82200 41987",
+    address: "529/483, Transformer street, Maveripet, Ammanur, Arakkonam, Vellore, Tamil Nadu - 631002",
     businessHours: "Mon - Fri: 8:00 AM - 6:00 PM"
   },
 
@@ -23,7 +23,7 @@ export const config = {
     serviceId: "YOUR_SERVICE_ID", // Replace with your EmailJS Service ID
     templateId: "YOUR_TEMPLATE_ID", // Replace with your EmailJS Template ID
     publicKey: "YOUR_PUBLIC_KEY", // Replace with your EmailJS Public Key
-    recipientEmail: "your-email@example.com" // Email where form submissions will be sent
+    recipientEmail: "jrk.engg@gmail.com" // Email where form submissions will be sent
   },
 
   // SOCIAL MEDIA LINKS
@@ -52,7 +52,7 @@ export const config = {
     title: "Building Tomorrow,",
     subtitle: "Engineering Today",
     tagline: "Engineering Reliability. Delivered with Precision.",
-    description: "With over 15 years of excellence in construction and engineering, we transform visions into reality through innovative design, superior craftsmanship, and unwavering commitment to quality.",
+    description: "With over 9+ years of excellence in construction and engineering, we transform visions into reality through innovative design, superior craftsmanship, and unwavering commitment to quality.",
     backgroundImage: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=2000&q=80"
   },
 
@@ -100,7 +100,7 @@ export const config = {
   whyChooseUs: [
     {
       id: 1,
-      title: "15+ Years Experience",
+      title: "9+ Years Experience",
       description: "Over a decade of proven excellence in delivering complex engineering projects.",
       icon: "⏱️"
     },
@@ -176,11 +176,16 @@ export const config = {
   // ABOUT SECTION
   about: {
     title: "About JRK Engineering",
-    description: "Founded in 2008, JRK Engineering has grown from a small construction firm to a leading name in commercial and industrial construction. Our commitment to quality, innovation, and client satisfaction has earned us numerous industry awards and a reputation for excellence.",
-    mission: "Our mission is to deliver engineering and construction solutions that exceed expectations while maintaining the highest standards of safety, quality, and environmental responsibility.",
+    description: "Founded in 2017, JRK Engineering has grown from a small construction firm to a leading name in commercial and industrial construction. Our commitment to quality, innovation, and client satisfaction has earned us numerous industry awards and a reputation for excellence.",
+    details: [
+      "Founder: Krishnan Kartheeshwaran",
+      "GST Registration: GSTIN 33CHVPK6340R1ZH"
+    ],
+    mission: "Our mission is to provide reliable and skilled manpower solutions that empower businesses to scale efficiently.	•	Promote sustainable development through responsible scrap recycling and resource management.	•	Deliver safe, innovative, and high-quality lift manufacturing and installation services.	•	Ensure efficient, secure, and timely transportation and logistics operations.	•	Facilitate transparent and compliant export-import services that connect markets globally.",
+    vision: "Our vision is to become a globally trusted, multi-industry engineering and workforce solutions company, delivering sustainable infrastructure, seamless logistics, ethical trade, and skilled manpower that drive industrial growth and economic progress.",
     stats: [
-      { label: "Projects Completed", value: "500+" },
-      { label: "Years Experience", value: "15+" },
+      { label: "Projects Completed", value: "30+" },
+      { label: "Years Experience", value: "9+" },
       { label: "Team Members", value: "150+" },
       { label: "Client Satisfaction", value: "98%" }
     ]

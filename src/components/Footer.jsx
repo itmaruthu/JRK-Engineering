@@ -22,7 +22,9 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <div className="footer-logo">
-            <div className="footer-logo-icon">{config.company.logo}</div>
+            <div className="footer-logo-icon">
+              <img src={config.company.logo} alt={config.company.name} />
+            </div>
             <span>{config.company.name}</span>
           </div>
           <p className="footer-description">{config.company.description}</p>

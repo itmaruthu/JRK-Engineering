@@ -43,14 +43,20 @@
 .logo-icon {
   width: 40px;
   height: 40px;
-  background: var(--primary-color);
+  /* allow the image to fill the box */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white);
-  font-size: 18px;
-  font-weight: 700;
   border-radius: 4px;
+  overflow: hidden;
+  background: none;
+}
+
+.logo-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .logo-text {
