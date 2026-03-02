@@ -181,7 +181,13 @@ export const config = {
       "Founder: Krishnan Kartheeshwaran",
       "GST Registration: GSTIN 33CHVPK6340R1ZH"
     ],
-    mission: "Our mission is to provide reliable and skilled manpower solutions that empower businesses to scale efficiently.	•	Promote sustainable development through responsible scrap recycling and resource management.	•	Deliver safe, innovative, and high-quality lift manufacturing and installation services.	•	Ensure efficient, secure, and timely transportation and logistics operations.	•	Facilitate transparent and compliant export-import services that connect markets globally.",
+    missionPoints: [
+      "Provide reliable and skilled manpower solutions that empower businesses to scale efficiently",
+      "Promote sustainable development through responsible scrap recycling and resource management",
+      "Deliver safe, innovative, and high-quality lift manufacturing and installation services",
+      "Ensure efficient, secure, and timely transportation and logistics operations",
+      "Facilitate transparent and compliant export-import services that connect markets globally"
+    ],
     vision: "Our vision is to become a globally trusted, multi-industry engineering and workforce solutions company, delivering sustainable infrastructure, seamless logistics, ethical trade, and skilled manpower that drive industrial growth and economic progress.",
     stats: [
       { label: "Projects Completed", value: "30+" },

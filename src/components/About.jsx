@@ -34,12 +34,20 @@ const About = () => {
 
             <div className="mission-vision">
               <div className="about-mission">
-                <h4>Mission</h4>
-                <p>{config.about.mission}</p>
+                <h4>Our Mission</h4>
+                {config.about.missionPoints ? (
+                  <ul className="mission-list">
+                    {config.about.missionPoints.map((point, idx) => (
+                      <li key={idx}>{point}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>{config.about.mission}</p>
+                )}
               </div>
 
               <div className="about-vision">
-                <h4>Vision</h4>
+                <h4>Our Vision</h4>
                 <p>{config.about.vision}</p>
               </div>
             </div>
